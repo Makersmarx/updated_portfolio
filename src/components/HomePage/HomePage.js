@@ -1,10 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import tree from './img/tree.png';
 import Logo from '../Logo/Logo';
 import Buttons from '../Buttons/Buttons';
 import './style/homePage.scss';
 
 const HomePage = () => {
+  const onclickMe = () => {
+    alert('lets add a loader');
+  };
+
+  const onCluckedIt = () => {
+    alert('yep yep here too');
+  };
+
   return (
     <div>
       <h1 className='name'>
@@ -20,10 +29,14 @@ const HomePage = () => {
 
       <img className='tree' src={tree} alt='tree with green leaves' />
       <div className='button1'>
-        <Buttons title='My Work' />
+        <Link to='/mywork'>
+          <Buttons title='My Work' onclick={onclickMe} />
+        </Link>
       </div>
       <div className='button2'>
-        <Buttons title='About Me' />
+        <Link to='/aboutme'>
+          <Buttons title='About Me' onclick={onCluckedIt} />
+        </Link>
       </div>
       <Logo />
     </div>
