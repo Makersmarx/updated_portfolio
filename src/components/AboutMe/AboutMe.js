@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Buttons from '../Buttons/Buttons';
 import './style/aboutMe.scss';
 import Logo from '../Logo/Logo';
@@ -31,7 +32,9 @@ const AboutMe = () => {
         </p>
       </div>
       <div className='button3'>
-        <Buttons title='My Skills' />
+        <Link to='/myskills'>
+          <Buttons title='My Skills' />
+        </Link>
       </div>
       <img className='trees' src={trees} alt='forest with clouds' />
 
