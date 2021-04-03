@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import MyWork from './components/MyWork/MyWork';
-import MySkills from './components/MySkills/MySkils';
+import MySkills from './components/MySkills/MySkills';
 import AboutMe from './components/AboutMe/AboutMe';
 
 const App = () => {
