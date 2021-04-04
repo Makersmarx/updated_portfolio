@@ -1,0 +1,264 @@
+.recent {
+  position: absolute;
+  width: 262px;
+  height: 45px;
+  left: 120px;
+  top: 123px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  color: #e6e4ec;
+  line-height: 45px;
+  /* identical to box height, or 154% */
+
+  letter-spacing: 2px;
+}
+
+.recentOrg {
+  color: #ff6600;
+}
+
+.contOne {
+  position: absolute;
+  width: 97%;
+  height: 1px;
+  left: 20px;
+  top: 235px;
+
+  background: rgba(71, 123, 99, 0.5);
+}
+
+.barber1 {
+  position: absolute;
+  width: 223px;
+  height: 39px;
+  left: 120px;
+  top: 258px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  color: #e6e4ec;
+}
+
+.barber2 {
+  position: absolute;
+  width: 186px;
+  height: 33px;
+  left: 638px;
+  top: 279px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* or 137% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #e6e4ec;
+}
+
+.barber3 {
+  position: absolute;
+  width: 151px;
+  height: 18px;
+  left: 1055px;
+  top: 279px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 137% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #e6e4ec;
+}
+
+.barbLink {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 1346px;
+  top: 279px;
+  color: #477b63;
+  text-decoration: none;
+}
+
+.contTwo {
+  position: absolute;
+  width: 97%;
+  height: 1px;
+  left: 20px;
+  top: 335px;
+
+  background: rgba(71, 123, 99, 0.5);
+}
+
+.allOne {
+  position: absolute;
+  width: 339px;
+  height: 28px;
+  left: 120px;
+  top: 367px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  color: #e6e4ec;
+}
+
+.allTwo {
+  position: absolute;
+  width: 84px;
+  height: 18px;
+  left: 650px;
+  top: 387px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 137% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #e6e4ec;
+}
+
+.allThree {
+  position: absolute;
+  width: 150px;
+  height: 18px;
+  left: 1056px;
+  top: 387px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 137% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #e6e4ec;
+}
+
+.allLink {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 1346px;
+  top: 387px;
+  color: #477b63;
+  text-decoration: none;
+}
+
+.contThree {
+  position: absolute;
+  width: 1464.8px;
+  height: 1px;
+  left: 20px;
+  top: 455px;
+
+  background: rgba(71, 123, 99, 0.5);
+}
+
+.classOne {
+  position: absolute;
+  width: 248px;
+  height: 28px;
+  left: 120px;
+  top: 476px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  color: #e6e4ec;
+}
+
+.classTwo {
+  position: absolute;
+  width: 232px;
+  height: 33px;
+  left: 650px;
+  top: 496px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* or 137% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #e6e4ec;
+}
+
+.classThree {
+  position: absolute;
+  width: 131px;
+  height: 18px;
+  left: 1056px;
+  top: 496px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 137% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #e6e4ec;
+}
+
+.classLink {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 1346px;
+  top: 496px;
+  color: #477b63;
+  text-decoration: none;
+}
+
+.myWorkButton {
+  position: absolute;
+  left: 120px;
+  top: 603px;
+}

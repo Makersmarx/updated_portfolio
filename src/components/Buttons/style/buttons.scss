@@ -1,9 +1,18 @@
 button {
   background-color: #554646;
+
   color: #e6e4ec;
   width: 185px;
   height: 46px;
   border: 1px solid #e6e4ec;
+  outline: none;
   box-sizing: border-box;
   border-radius: 0px;
+}
+
+button:hover {
+  background-color: #ff6600;
+  transition: all 0.7s;
+  color: #554646;
+  border: #ff6600 2px solid;
 }

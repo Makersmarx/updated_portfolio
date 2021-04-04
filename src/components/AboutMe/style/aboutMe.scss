@@ -101,10 +101,6 @@
   position: absolute;
   left: 152px;
   top: 571px;
-
-  border: 1px solid #e6e4ec;
-  box-sizing: border-box;
-  border-radius: 0px;
 }
 
 .green {
@@ -114,4 +110,17 @@
 
 .pink {
   color: #e11c79;
+}
+
+.anchorGit {
+  text-decoration: none;
+}
+
+.anchorLink {
+  text-decoration: none;
+  color: #e6e4ec;
+}
+
+.green:hover {
+  background-color: #ff6600;
 }

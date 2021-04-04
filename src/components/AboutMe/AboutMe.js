@@ -28,7 +28,17 @@ const AboutMe = () => {
         </p>
         <p className='line4'>
           I can also be found in the mountains of Costa Rica sipping coffee,
-          <span className='green'>Github</span>, or LinkedIn.
+          <a className='anchorGit' href='https://github.com/Makersmarx'>
+            <span className='green'>Github</span>
+          </a>
+          , or{' '}
+          <a
+            className='anchorLink'
+            href='https://www.linkedin.com/in/makersmarx/'
+          >
+            LinkedIn
+          </a>
+          .
         </p>
       </div>
       <div className='button3'>

@@ -84,16 +84,14 @@ body {
   position: absolute;
   left: 120px;
   top: 560px;
-  border: 1px solid #e6e4ec;
-  box-sizing: border-box;
-  border-radius: 0px;
 }
 
 .button2 {
   position: absolute;
   left: 350px;
   top: 560px;
-  border: 1px solid #e6e4ec;
-  box-sizing: border-box;
-  border-radius: 0px;
+}
+
+.tree:hover {
+  cursor: pointer;
 }

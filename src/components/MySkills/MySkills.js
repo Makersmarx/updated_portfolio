@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
+import Buttons from '../Buttons/Buttons';
 import './style/mySkills.scss';
 
 const MySkills = () => {
@@ -20,7 +22,7 @@ const MySkills = () => {
         I have years of experience working in sales and feel confident working
         directly with clients or sales teams.
       </p>
-      <p className='skills4'>Here are the tools I enjoy using:</p>
+      <p className='skills4'>Here are some of the tools I enjoy using:</p>
       {/* skills start */}
       <div className='skillsCont'>
         <h3 className='lang'>Languages</h3>
@@ -44,14 +46,19 @@ const MySkills = () => {
         <p className='boot'>Bootstrap</p>
         {/* additional start */}
         <h3 className='add'>Additional</h3>
-        <p>Stop Here</p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <p className='linux'>Linux Admin</p>
+        <p className='sales'>Salesforce</p>
+        <p className='figma'>Figma</p>
+        <p className='fiveS'>5S - Lean Manufacturing</p>
+        <p className='AWS'>AWS, Netlify, and Heroku</p>
       </div>
       <div>
         <Logo />
+      </div>
+      <div className='skillButton'>
+        <Link to='/mywork'>
+          <Buttons title='My work' />
+        </Link>
       </div>
     </div>
   );
