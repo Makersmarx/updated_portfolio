@@ -8,11 +8,7 @@ import './style/homePage.scss';
 
 const HomePage = () => {
   return (
-    <div id='spinner-back'>
-      <div id='spinner-front'>
-        <img src='./img/tree.png' alt='tree' />
-      </div>
-
+    <div>
       <h1 className='name'>
         <span className='first'>Robert</span> Biehn
       </h1>
