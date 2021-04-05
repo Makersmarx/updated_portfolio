@@ -20,7 +20,7 @@ const HomePage = () => {
         community growth and success with technology.
       </p>
 
-      <img className='tree' src={tree} alt='tree with green leaves' />
+      <img id='mnt' className='tree' src={tree} alt='tree with green leaves' />
       <div className='button1'>
         <Link to='/mywork'>
           <Buttons title='My Work' />
