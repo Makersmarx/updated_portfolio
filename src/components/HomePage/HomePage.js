@@ -19,8 +19,7 @@ const HomePage = () => {
         Hi. I’m a front end developer in Costa Rica. My passion is encouraging
         community growth and success with technology.
       </p>
-
-      <img id='mnt' className='tree' src={tree} alt='tree with green leaves' />
+      <img className='tree' src={tree} alt='tree with green leaves' />
       <div className='button1'>
         <Link to='/mywork'>
           <Buttons title='My Work' />

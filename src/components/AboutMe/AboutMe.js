@@ -22,9 +22,11 @@ const AboutMe = () => {
         </p>
         <p className='line3'>
           While I spend most of my time with{' '}
-          <span className='pink'>Movable Ink</span> and freelance projects. I
-          also enjoy learning back-end development and helping others learn new
-          skills.
+          <a className='movLink' href='https://movableink.com/'>
+            <span className='pink'>Movable Ink</span>
+          </a>{' '}
+          and freelance projects. I also enjoy learning back-end development and
+          helping others learn new skills.
         </p>
         <p className='line4'>
           I can also be found in the mountains of Costa Rica sipping coffee,
