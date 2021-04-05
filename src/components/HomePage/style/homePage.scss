@@ -92,6 +92,35 @@ body {
   top: 560px;
 }
 
-// .tree:hover {
-//   cursor: pointer;
-// }
+@media only screen and (max-width: 600px) {
+  img {
+    display: none;
+  }
+
+  .name {
+    left: 20px;
+  }
+
+  .aboutMe {
+    width: 285px;
+    left: 20px;
+  }
+
+  .job {
+    display: none;
+  }
+
+  .job2 {
+    left: 20px;
+  }
+
+  .button1 {
+    left: 2px;
+    top: 650px;
+  }
+
+  .button2 {
+    left: 190px;
+    top: 650px;
+  }
+}
