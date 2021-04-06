@@ -128,3 +128,34 @@
 .movLink {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .about {
+    left: 90px;
+  }
+
+  .line {
+    left: 90px;
+    height: 150px;
+    width: 225px;
+  }
+
+  .line2 {
+    display: none;
+  }
+
+  .line3 {
+    display: none;
+  }
+
+  .line4 {
+    left: 90px;
+    height: 150px;
+    width: 250px;
+    top: 380px;
+  }
+
+  .button3 {
+    left: 90px;
+  }
+}

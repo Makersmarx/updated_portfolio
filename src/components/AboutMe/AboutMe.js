@@ -29,7 +29,7 @@ const AboutMe = () => {
           helping others learn new skills.
         </p>
         <p className='line4'>
-          I can also be found in the mountains of Costa Rica sipping coffee,
+          I can be found in the mountains of Costa Rica sipping coffee,
           <a className='anchorGit' href='https://github.com/Makersmarx'>
             <span className='green'>Github</span>
           </a>
