@@ -492,3 +492,43 @@
   left: 150px;
   top: 640px;
 }
+
+@media only screen and (max-width: 600px) {
+  .skillsCont {
+    display: none;
+  }
+
+  .skills1 {
+    left: 90px;
+    width: 250px;
+    height: 150px;
+    top: 190px;
+  }
+
+  .skills2 {
+    left: 90px;
+    width: 250px;
+    height: 150px;
+    top: 340px;
+  }
+
+  .skills3 {
+    left: 90px;
+    width: 250px;
+    height: 150px;
+    top: 490px;
+  }
+
+  .skills4 {
+    display: none;
+  }
+
+  .skillButton {
+    left: 90px;
+    top: 675px;
+  }
+
+  .orange {
+    top: 150px;
+  }
+}
