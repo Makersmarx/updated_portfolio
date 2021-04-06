@@ -502,21 +502,18 @@
     left: 90px;
     width: 250px;
     height: 150px;
-    top: 190px;
+    top: 240px;
   }
 
   .skills2 {
     left: 90px;
     width: 250px;
     height: 150px;
-    top: 340px;
+    top: 410px;
   }
 
   .skills3 {
-    left: 90px;
-    width: 250px;
-    height: 150px;
-    top: 490px;
+    display: none;
   }
 
   .skills4 {
@@ -525,10 +522,11 @@
 
   .skillButton {
     left: 90px;
-    top: 675px;
+    top: 605px;
   }
 
   .orange {
-    top: 150px;
+    top: 200px;
+    left: 90px;
   }
 }
