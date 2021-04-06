@@ -180,7 +180,7 @@
 
 .contThree {
   position: absolute;
-  width: 1464.8px;
+  width: 97%;
   height: 1px;
   left: 20px;
   top: 455px;
@@ -261,4 +261,45 @@
   position: absolute;
   left: 120px;
   top: 603px;
+}
+
+@media only screen and (max-width: 600px) {
+  .barber2 {
+    display: none;
+  }
+
+  .barber3 {
+    display: none;
+  }
+
+  .barbLink {
+    display: none;
+  }
+
+  .classLink {
+    display: none;
+  }
+
+  .classTwo {
+    display: none;
+  }
+
+  .classThree {
+    display: none;
+  }
+
+  .allLink {
+    display: none;
+  }
+  .allTwo {
+    display: none;
+  }
+
+  .allThree {
+    display: none;
+  }
+
+  .recent {
+    top: 150px;
+  }
 }
