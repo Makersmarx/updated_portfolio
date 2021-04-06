@@ -19,7 +19,9 @@ const HomePage = () => {
         Hi. I’m a front end developer in Costa Rica. My passion is encouraging
         community growth and success with technology.
       </p>
-      <img className='tree' src={tree} alt='tree with green leaves' />
+      <a href='https://fervent-jang-ac72f8.netlify.app/'>
+        <img className='tree' src={tree} alt='tree with green leaves' />
+      </a>
       <div className='button1'>
         <Link to='/mywork'>
           <Buttons title='My Work' />
