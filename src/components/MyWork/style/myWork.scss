@@ -264,6 +264,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .barber1 {
+    left: 50px;
+  }
+
   .barber2 {
     display: none;
   }
@@ -301,5 +305,20 @@
 
   .recent {
     top: 150px;
+  }
+
+  .allOne {
+    left: 50px;
+  }
+  .classOne {
+    left: 50px;
+  }
+
+  .recent {
+    left: 50px;
+  }
+
+  .myWorkButton {
+    left: 50px;
   }
 }
