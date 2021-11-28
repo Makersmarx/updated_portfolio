@@ -1,6 +1,7 @@
 import React from 'react';
 import ParticlesBg from 'particles-bg';
 import { Link } from 'react-router-dom';
+import Loader from 'react-loader-spinner';
 import tree from './img/tree.png';
 import Logo from '../Logo/Logo';
 import Buttons from '../Buttons/Buttons';

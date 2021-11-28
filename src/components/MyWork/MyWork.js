@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import Logo from '../Logo/Logo';
 import Buttons from '../Buttons/Buttons';
 import './style/myWork.scss';
@@ -25,7 +26,7 @@ const MyWork = () => {
         <p className='allThree'>Freelance, 2020</p>
         <p className='allLink'>></p>
       </a>
-      <a href='https://class-with-chris.herokuapp.com/signin.html'>
+      <a href='https://github.com/Makersmarx/classWithChris'>
         <div className='contThree'></div>
         <p className='classOne'>Classin with Chris</p>
         <p className='classTwo'>Frontend W/HTML, SASS, JS</p>
