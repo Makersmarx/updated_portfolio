@@ -17,8 +17,8 @@ const HomePage = () => {
       <h1 className='job'>Front-end</h1>
       <h1 className='job2'>Developer</h1>
       <p className='aboutMe'>
-        Hi. I’m a front end developer in Southwest Michigan. My passion is
-        encouraging community growth and success with technology.
+        Hi. I’m a front end developer in Michigan. My passion is encouraging
+        community growth and success with technology.
       </p>
       <a href='https://fervent-jang-ac72f8.netlify.app/'>
         <img className='tree' src={tree} alt='tree with green leaves' />
